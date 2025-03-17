@@ -1,7 +1,9 @@
 import express, { Express, Request, Response } from "express";
 import moderationRoutes from "./api/v1/routes/moderationRoutes";
+import setupSwagger from "./swagger";
 
 const app: Express = express();
+setupSwagger(app);
 app.use(express.json());
 
 /**
