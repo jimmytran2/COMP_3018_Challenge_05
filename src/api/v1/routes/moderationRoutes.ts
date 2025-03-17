@@ -77,7 +77,7 @@ router.get("/post/:id", getPostById);
  *             example:
  *               message: "Post moderated successfully"
  *               data:
- *                 id: "123e4567-e89b-12d3-a456-426614174000"
+ *                 id: "123"
  *                 status: "Moderated"
  *                 actionTaken: "Content flagged and hidden"
  *                 moderatedAt: "2025-03-17T12:34:56Z"
